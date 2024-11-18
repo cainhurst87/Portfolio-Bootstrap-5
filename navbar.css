@@ -1,0 +1,67 @@
+
+nav {
+    background-color: var(--background-white);
+    background: var(--background-white);
+    box-shadow: 0px 1px 5px 0.1vh rgba(0, 0, 0, 0.75);
+}
+
+#logo {
+    font-size: 2rem;
+    font-weight: 500;
+    color: var(--text);
+}
+
+#jump-nav-list li button {
+    background: none;
+    border: 2px solid transparent;
+    color: var(--text);
+    font-size: 1.3em;
+    text-decoration: none;
+}
+
+#jump-nav-list li button:hover {
+    color: var(--text-blue);
+    border-bottom: 1px solid var(--text-blue);
+}
+
+#toggle-light-btn {
+    color: var(--text);
+    background: none;
+    border: none;
+    font-size: 1.7rem;
+}
+
+#language-dropdown-btn, 
+#language-dropdown-list li {
+    font-size: 1.4rem;
+    text-decoration: none;
+    color: var(--text);
+}
+
+#toggle-light-btn i:hover,
+#language-dropdown-btn:hover {
+    color: var(--text-blue);
+}
+
+#language-dropdown-btn:active {
+    border: 1px solid var(--text-blue);
+}
+
+#language-dropdown-list li {
+    text-align: center;
+}
+
+@media (max-width: 481px) {
+    #logo {
+        font-size: 1.5rem;
+    }
+
+    #toggle-light-btn, 
+    #language-dropdown-btn {
+        font-size: 1.1rem;
+    }
+
+    #language-dropdown-list li a {
+        font-size: 1rem;
+    }
+}

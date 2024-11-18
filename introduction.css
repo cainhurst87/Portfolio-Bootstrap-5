@@ -1,0 +1,42 @@
+
+#portrait-image {
+    max-width: 400px; 
+    width: 100%; 
+    height: auto; 
+    margin: 0 auto; 
+    border: 5px solid var(--text-blue);
+}
+
+#flexbox-introduction h1{
+    font-size: 2.2em;
+}
+
+.bi-geo-alt-fill{
+    color: var(--text);
+}
+
+.bi-check2-circle{
+    color: #19d800;
+}
+
+#download-cv-btn{
+    background: #2477dc;
+    border: 1px solid #2477dc;
+    border-radius: 50em;
+    color: var(--background-white);
+}
+
+#flexbox-introduction-btn-board a i{
+    font-size: 1.5em;
+}
+
+
+
+
+
+
+
+
+
+
+

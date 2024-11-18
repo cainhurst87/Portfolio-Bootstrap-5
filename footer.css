@@ -1,0 +1,42 @@
+
+
+
+
+footer{
+    background-color: var(--text);
+    color: #fff;
+}
+
+
+#footer-call span{
+    font-size: 5rem;
+    border: 2px solid #fff;
+    border-radius: 20em;
+}
+
+#footer-email{
+    font-size: 1.3rem;
+}
+
+#footer-email button{
+    background: none;
+    border: none;
+    color: #fff;
+}
+
+#footer-email button:hover{
+    color: var(--text-blue);
+}
+
+#footer-email button:active{
+    color: #19d800;
+}
+
+#footer-icons a i{
+    color: #fff;
+    font-size: 2em;
+}
+
+#footer-icons a i:hover{
+    color: var(--text-blue);
+}
