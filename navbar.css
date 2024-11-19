@@ -6,12 +6,11 @@ nav {
 }
 
 #logo {
-    font-size: 2rem;
     font-weight: 500;
     color: var(--text);
 }
 
-#jump-nav-list li button {
+#jump-nav-list li a {
     background: none;
     border: 2px solid transparent;
     color: var(--text);
@@ -19,7 +18,7 @@ nav {
     text-decoration: none;
 }
 
-#jump-nav-list li button:hover {
+#jump-nav-list li a:hover {
     color: var(--text-blue);
     border-bottom: 1px solid var(--text-blue);
 }
@@ -31,15 +30,13 @@ nav {
     font-size: 1.7rem;
 }
 
-#language-dropdown-btn, 
-#language-dropdown-list li {
+#language-dropdown-btn, #language-dropdown-list li {
     font-size: 1.4rem;
     text-decoration: none;
     color: var(--text);
 }
 
-#toggle-light-btn i:hover,
-#language-dropdown-btn:hover {
+#toggle-light-btn i:hover, #language-dropdown-btn:hover {
     color: var(--text-blue);
 }
 
@@ -52,16 +49,17 @@ nav {
 }
 
 @media (max-width: 481px) {
+
     #logo {
         font-size: 1.5rem;
     }
 
-    #toggle-light-btn, 
-    #language-dropdown-btn {
+    #toggle-light-btn, #language-dropdown-btn {
         font-size: 1.1rem;
     }
 
     #language-dropdown-list li a {
         font-size: 1rem;
     }
+
 }

@@ -1,4 +1,9 @@
 
+#introduction{
+    background: var(--background-light-grey);
+    color: var(--text);
+}
+
 #portrait-image {
     max-width: 400px; 
     width: 100%; 
@@ -23,20 +28,15 @@
     background: #2477dc;
     border: 1px solid #2477dc;
     border-radius: 50em;
-    color: var(--background-white);
+    color: var(--background-light-grey);
+    transition: .2s;
+}
+
+#download-cv-btn:hover{
+    background: var(--background-light-grey);
+    color: var(--text-blue);
 }
 
 #flexbox-introduction-btn-board a i{
-    font-size: 1.5em;
+    font-size: 1.6em;
 }
-
-
-
-
-
-
-
-
-
-
-

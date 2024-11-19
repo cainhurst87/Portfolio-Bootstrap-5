@@ -1,0 +1,50 @@
+
+#carousel-projects{
+    background: var(--background-grey);
+    min-height: 450px;
+}
+
+#projects-title{
+    color: var(--text);
+}
+
+.carousel-inner{
+    max-width: 90%;
+}
+
+.carousel-item img{
+    max-height: 300px;
+}
+
+.carousel-control-prev i, .carousel-control-next i{
+    opacity: 1;
+    color: var(--text-blue);
+    background-color: var(--background-grey);
+}
+
+.carousel-caption{
+    position: relative;
+    padding-top: 20px;
+}
+
+.carousel-caption p{
+    color: var(--text-blue);
+}
+
+.carousel-caption-icons a{
+    text-decoration: none;
+    color: var(--background-grey);
+    background: var(--text-blue);
+    border: 1px solid var(--text-blue);
+    border-radius: 40em;
+}
+
+.carousel-caption-icons a:hover{
+    color: var(--text-blue);
+    background: var(--background-grey);
+}
+
+.bi-chevron-left, .bi-chevron-right{
+    border-radius: 400em;
+    border: 1px solid var(--text-blue);
+}

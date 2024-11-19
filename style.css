@@ -1,4 +1,5 @@
 :root {
+    --background-dark: #0d1027;
     --background-grey: #dfdfdf;
     --background-light-grey: #f3f3f3;
     --background-white: #fdfffc;
@@ -6,8 +7,9 @@
     --text-blue: #2477dc; 
 }
 
-[data-theme="dark"] {
-    --background-grey: #0d1029;
+[data-mode="dark"] {
+    --background-dark: #0D0F1F;
+    --background-grey: #0D1029;
     --background-light-grey: #131736;
     --background-white: #293065;
     --text: #f6f6f6;
@@ -18,7 +20,11 @@
     margin: 0;
     padding: 0;
     font-family: 'Ubuntu Mono', sans-serif;
-    transition: .2s;
+}
+
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 65px;
 }
 
 #filler{
@@ -26,6 +32,5 @@
 }
 
 body{
-    padding-top: 110px;
+    padding-top: 50px;
 }
-
