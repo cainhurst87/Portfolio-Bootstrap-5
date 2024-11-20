@@ -1,50 +1,42 @@
 
-#carousel-projects{
+#projects{
     background: var(--background-grey);
-    min-height: 450px;
 }
 
 #projects-title{
     color: var(--text);
 }
 
-.carousel-inner{
-    max-width: 90%;
+.project-card {
+    max-width: 200rem;
 }
 
-.carousel-item img{
-    max-height: 300px;
-}
-
-.carousel-control-prev i, .carousel-control-next i{
-    opacity: 1;
-    color: var(--text-blue);
-    background-color: var(--background-grey);
-}
-
-.carousel-caption{
-    position: relative;
-    padding-top: 20px;
-}
-
-.carousel-caption p{
-    color: var(--text-blue);
-}
-
-.carousel-caption-icons a{
+.project-icons a{
+    border-radius: 0.3em;
+    padding: 0.6em;
     text-decoration: none;
-    color: var(--background-grey);
-    background: var(--text-blue);
-    border: 1px solid var(--text-blue);
-    border-radius: 40em;
+    transition: .2s;
 }
 
-.carousel-caption-icons a:hover{
-    color: var(--text-blue);
-    background: var(--background-grey);
+.project-icon-demo{
+    background: #2477dc;
+    color: #fff;
+    border: 1px solid #2477dc;
 }
 
-.bi-chevron-left, .bi-chevron-right{
-    border-radius: 400em;
-    border: 1px solid var(--text-blue);
+.project-icon-demo:hover{
+    background: #fff;
+    color: #2477dc;
 }
+
+.project-icon-git{
+    color: #fff;
+    background: #000;
+    border: 1px solid #000;
+}
+
+.project-icon-git:hover{
+    color: #000;
+    background: #fff;
+}
+
