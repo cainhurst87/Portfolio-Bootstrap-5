@@ -27,8 +27,9 @@ html {
     scroll-padding-top: 65px;
 }
 
-#filler{
+.filler{
     height: 600px;
+    border: 1px solid red;
 }
 
 body{

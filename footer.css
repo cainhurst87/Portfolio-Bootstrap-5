@@ -2,8 +2,8 @@
 footer{
     background-color: var(--background-dark);
     color: #fff;
+    bottom: 0;
 }
-
 
 #footer-call span{
     font-size: 5rem;
