@@ -1,5 +1,6 @@
 
 #introduction{
+    padding-top: 1.3em;
     background: var(--background-light-grey);
     color: var(--text);
 }
@@ -30,6 +31,7 @@
     border-radius: 50em;
     color: var(--background-light-grey);
     transition: .2s;
+    text-decoration: none;
 }
 
 #download-cv-btn:hover{

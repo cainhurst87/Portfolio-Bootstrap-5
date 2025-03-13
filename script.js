@@ -1,4 +1,7 @@
 document.addEventListener("DOMContentLoaded", () => {
+    
+    // Navbar Light Toggling
+    
     const toggleModeButton = document.getElementById('toggle-light-btn');
     const htmlElement = document.documentElement;
 
@@ -28,4 +31,14 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
     toggleModeButton.addEventListener('click', toggleMode);
+
+    // Footer Email Copying 
+
+    const emailElement = document.getElementById('email-text').innerText;
+    const emailCopyButton = document.getElementById('copy-email-btn');
+
+    emailCopyButton.addEventListener('click', () => {
+        navigator.clipboard.writeText(emailElement);
+    });
+
 });

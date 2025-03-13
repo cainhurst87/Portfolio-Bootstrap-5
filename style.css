@@ -1,5 +1,5 @@
 :root {
-    --background-dark: #0d1027;
+    --background-dark: #02030f;
     --background-grey: #dfdfdf;
     --background-light-grey: #f3f3f3;
     --background-white: #fdfffc;
@@ -8,7 +8,7 @@
 }
 
 [data-mode="dark"] {
-    --background-dark: #0D0F1F;
+    --background-dark: #02030f;
     --background-grey: #0D1029;
     --background-light-grey: #131736;
     --background-white: #293065;

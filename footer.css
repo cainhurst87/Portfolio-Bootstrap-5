@@ -19,6 +19,7 @@ footer{
     background: none;
     border: none;
     color: #fff;
+    transition: .3s;
 }
 
 #footer-email button:hover{
